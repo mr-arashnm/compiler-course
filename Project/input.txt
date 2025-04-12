@@ -1,0 +1,4 @@
+int a = dcedc125d;
+if(a==3){return;}
+@foo
+/* not closed

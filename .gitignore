@@ -9,7 +9,7 @@
 # ...existing content...
 
 # txt file
-project/*.txt
+Project/*.txt
 
 
 .ipynb_checkpoints

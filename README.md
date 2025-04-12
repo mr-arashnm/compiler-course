@@ -1,11 +1,8 @@
 # Compiler Design Course – Sharif University of Technology
 
-This repository contains all materials related to the **Compiler Design** course taught by **Dr. Samaneh Hosein Mardani** at **Sharif University of Technology**, during the **Spring 1403-1404** semester.
+This repository contains materials related to the **Compiler Design** course taught by **Dr. Samaneh Hosein Mardani** at **Sharif University of Technology**, during the **Spring 1403-1404** semester.
 
 ## 📚 Contents
-
-- 🖥️ **Slides**  
-  Lecture slides and teaching materials provided during the course.
 
 - 🧠 **Exercises**  
   Theory and problem-solving assignments for practicing compiler concepts.
@@ -19,8 +16,7 @@ This repository contains all materials related to the **Compiler Design** course
 ## 🚧 Status
 
 This repository is being actively updated throughout the semester with:
-- New slides
-- Assignments
+- New assignments
 - Project updates
 - Sample test cases
 
@@ -43,4 +39,3 @@ Stay tuned!
 ## 📄 License
 
 This repository is maintained for educational purposes. Sharing solutions or project code externally is not allowed until the end of the semester.
-

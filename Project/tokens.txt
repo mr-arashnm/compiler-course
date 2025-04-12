@@ -1,3 +1,0 @@
-1 (KEYWORD, int) (ID, a) (SYMBOL, =) (ID, dcedc125d) (SYMBOL, ;)
-2 (KEYWORD, if) (SYMBOL, () (ID, a) (SYMBOL, ==) (NUM, 3) (SYMBOL, )) (SYMBOL, {) (KEYWORD, return) (SYMBOL, ;) (SYMBOL, })
-3 (ID, foo)

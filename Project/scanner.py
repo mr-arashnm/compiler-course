@@ -25,8 +25,7 @@ class Scanner:
         while index < length:
             ch = line[index]
 
-            # end of token
-            if ch in [' ', '\n', '\r', '\t', '\v', '\f']:
+            if ch in [' ', '\n', '\r', '\t', '\v', '\f']: # end of token
                 index += 1
                 continue
 
@@ -102,7 +101,7 @@ class Scanner:
         self._write_errors()
         self._write_symbol_table()
 
-    def _write_tokens(self):
+    def _write_tokens(self): # write tokens to file
         with open("tokens.txt", "w") as f:
             if not self.tokens:
                 return
@@ -110,7 +109,7 @@ class Scanner:
                 token_line = " ".join(f"({typ}, {val})" for typ, val in self.tokens[lineno])
                 f.write(f"{lineno} {token_line}\n")
 
-    def _write_errors(self):
+    def _write_errors(self): # write errors to file
         with open("lexical_errors.txt", "w") as f:
             if not self.errors:
                 f.write("There is no lexical error.\n")
@@ -119,7 +118,7 @@ class Scanner:
                     error_line = " ".join(f"({val}, {msg})" for val, msg in self.errors[lineno])
                     f.write(f"{lineno} {error_line}\n")
 
-    def _write_symbol_table(self):
+    def _write_symbol_table(self): # write symbol and keyword table to file
         symbols = self.keywords + self.symbol_table
         with open("symbol_table.txt", "w") as f:
             for idx, symbol in enumerate(symbols, 1):
